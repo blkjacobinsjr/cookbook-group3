@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel= "stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <title>Cookbook</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Recipe Webpage</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo-container">
+              <a href="#logo" class="logo" id="logo"><img src="design-assets/restaurant-logo.png" alt="logo"/></a>
+              <a href="#logotext" class="saffron-text font-weight-bold" style="font-family: 'Cormorant'; color: #000000">Saffron</a> <!-- Added bold font weight for 'Saffron' -->
+            </div>
+        </nav>
+        <!-- Added the RECIPES text -->
+        <h1 class="recipes-title font-weight-bold" style="font-family: 'Roboto'; color: #000000">RECIPES</h1> 
+    </header>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-3"> <!-- Column 1 -->
+                <h2 class="section-title">Spice &amp; Rice</h2>
+                <ul class="section-list">
+                    <li class="section-item" data-section="salad">Salad</li>
+                    <li class="section-item" data-section="spices">Spices &amp; More</li>
+                    <li class="section-item" data-section="rice">Rice</li>
+                    <li class="section-item" data-section="main-dish">Main Dish</li>
+                </ul>
+                <button class="add-section-btn btn btn-primary">Add Section</button>
+            </div>
+
+        <!-- Data inside the second column -->
+        <div class="col-md-3" id="recipes"> <!-- Column 2 -->
+            <ul class="recipe-list" data-section="spices">
+                <li class="recipe-item" data-recipe="ginger-garlic-paste">Ginger Garlic Paste</li>
+                <li class="recipe-item" data-recipe="hunan-sauce">Hunan Sauce</li>
+                <li class="recipe-item" data-recipe="schezwan-sauce">Pressure Cooker Chickpeas</li>
+                <li class="recipe-item" data-recipe="schezwan-sauce">Shawarma Spice Blend</li>
+                <li class="recipe-item" data-recipe="schezwan-sauce">Za'atar</li>
+                <!-- Add more items as needed -->
+            </ul>
+        </div>
+
+
+            <div class="col-md-6"> <!-- Column 3 -->
+                <!-- Recipe Details Here -->
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
