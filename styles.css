@@ -1,5 +1,4 @@
 @import './CSS/header.css';
-@import './CSS/body.css';
 @import './CSS/col1.css';
 @import './CSS/col2.css';
 @import './CSS/cookbook-body.css';
@@ -7,3 +6,13 @@
 /* PLEASE DON'T CHANGE SOMTHING HERE USE SEPARATE FILES
 AND PLEASE USE UNIQE .CLASSES 
 */
+
+body {
+    background-color:snow
+}
+
+.AddButton {
+    background-color: transparent;
+    color: rgb(129, 166, 65);
+    box-shadow: none;
+}

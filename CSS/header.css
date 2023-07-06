@@ -4,11 +4,17 @@
   font-weight: bold;
   font-style: italic;
   text-decoration: none;
+  
 }
 
+.logo-container {
+    margin: 0 15rem;
+
+}
 #logo img {
   width: 30px; 
   height: auto;
   padding-bottom: 3%; 
   
 }
+
