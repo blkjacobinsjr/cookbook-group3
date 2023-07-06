@@ -1,9 +1,14 @@
 /* Title, Descrip, Img */
 body{
-    width: "60%";
+    width: 80%;
     margin-top: 0px;
     
 }
+.reciepe-body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 .col-md-6{
     margin-top: -90px;
 }
