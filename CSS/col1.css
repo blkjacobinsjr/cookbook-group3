@@ -13,7 +13,6 @@
 .section-title {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .section-list {
@@ -25,4 +24,13 @@
 .section-item {
     cursor: pointer;
     margin-bottom: 10px;
+}
+
+.add-section-btn {
+    margin-top: 10px;
+}
+
+.col-md-3 { /* CSS class for column 1 and 2 */
+    border-left: 1px solid #d0d0d0;
+    height: 700px;
 }
