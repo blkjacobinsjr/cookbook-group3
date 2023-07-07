@@ -11,6 +11,13 @@
     font-weight: bold;
 }
 
+.recipe-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 .section-list {
     list-style-type: none;
     padding: 0;
@@ -20,4 +27,19 @@
 .section-item {
     cursor: pointer;
     margin-bottom: 10px;
+}
+
+.add-section-btn {
+    margin-top: 10px;
+}
+
+
+.section-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.section-item[data-section='hunan-sauce']:hover {
+    background-color: khaki; /* khaki background */
+    color: white; /* white text */
 }
